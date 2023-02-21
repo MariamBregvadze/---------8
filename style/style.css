@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1{
+    text-indent: -9999999999999px;
+}
+header ul a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+}
+header ul a:hover::before{
+width: 100%;
+}
+header ul a{
+    color: #ffffff;
+    position: relative;
+}
+header{
+    
+    background-color: #000000;
+    width: 100%;
+    height: 94px;
+    margin-bottom: 56px;
+}
+
+header div{
+    width: 90px;
+    height: 80px;
+    margin-left: 66px;
+    padding-top: 10px;
+    display: flex;
+}
+header ul{
+    width: 500px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 245px;
+    padding-top: 22px;
+    margin-left: 302px;
+}
+.header{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/music-note\ 1.png);
+    background-repeat: no-repeat;
+ 
+
+}
+.maindiv{
+    margin-top: 52px;
+    width: 1460px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.saertodiv{
+    height: 476px;
+    padding-right: 124px;
+    padding-left: 62px;
+}
+div article{
+    position: relative;
+}
+
+.sound{
+    background-color: #ffffff;
+    width: 300px;
+    height: 272px;
+    border: 1px double #181818;
+    padding-top: 62px;
+    padding-left: 10px;
+   
+}
+h2{
+    padding-bottom: 40px;
+}
+h3{
+    padding-bottom: 10px;
+}
+.sound article{
+    width: 269px;
+    height: 68px;
+    background-image: url(../img/sound\ 1.png);
+    background-repeat:repeat ;
+    flex-wrap: nowrap;
+    background-position-y:0 auto;
+}
+.text{
+    padding-top: 101px;
+}
+.goon{
+    font-size: 16px;
+    color: #000000;
+    padding-top: 74px;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -61px;
+    right: -17px;
+    background-image: url(../img/like\ 1.png);
+}
+.firstarticle{
+    height: 382px;
+margin-top: 90px;
+}
+.saertodiv2{
+ margin-top: 70px;
+    display: contents;
+    height: 476px;
+    padding-right: 84px;
+    padding-left: 7px;
+}
+.SECONDLINE{
+    height: 1046px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 500px;
+}
+.usable{
+    height: 300px;
+    padding-top: 69px;
+    display: flex;
+}
+.usable2{
+    height: 100px;
+    display: flex;
+    padding-top: 67px;
+}
+.saertodiv2 .firstarticle{
+    padding-right: 124px;
+    padding-left: 62px;
+}
+.third .secondarticle{
+margin-top: 333px;
+padding-right: 124px;
+padding-left: 62px;
+}
+footer div{
+    margin-top: 338px;
+    background-color: #000000;
+    width: 100%;
+    height: 300px;
+}
+footer img{
+    padding-top: 30px;
+    padding-left: 663px;
+}
+footer ul{
+    color: #ffffff;
+    padding-left: 701px;
+}
+footer p{
+    color: #ffffff;
+    font-size: 17px;
+    padding-left: 670px;
+    padding-top: 37px;
+}
+.social{  
+    width: 100px;
+    height: 200px; 
+ position: fixed;
+ right: 0;
+ top: 300px;
+}
+.social div{
+ width: 100px;
+ height: 50%;
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.social .instagram{
+    background-image: url(../img/instagram\ 1.png);
+  
+}
+.social .fb{
+    background-image: url(../img/fb\ 1.png);
+}
+.social .instagram:hover{
+    background-image: url(../img/instagram.png);
+}
+.social .fb:hover{
+    background-image: url(../img/facebook.png);
+}
+.like:hover{
+    background-image: url(../img/like\ 2.png);
+}
+
+/* -------meore gverdi------------ */
+/* .pirveli{
+width: 738px;
+height: 480px;
+} */
+.playlist1:hover{
+    text-shadow: 10px 20px 10px #7e7980;
+}
+.firstorder{
+    padding-left: 100px;
+    display: flex;
+}
+/* .firstorder:hover{
+    text-shadow: 10px 20px 10px #7e7980;
+} */
+.secondorder{
+    padding-left: 295px;
+    margin-top: -185px;
+}
+.firstorder2{
+    padding-left: 500px;
+    margin-top: -176px;
+}
+.secondorder2{
+   padding-left: 706px;
+   margin-top: -182px;
+}
+.playlist1{
+    padding-top: 80px;
+}
+.pl1{
+    padding-left: 100px;
+}
+.pl2{
+    padding-left: 500px;
+}
+.p1{
+    width: 210px;
+}
+.p2{
+    width: 610px;
+    margin-top: -63px;
+}
+.soundpage2{
+    width: 265px;
+    height: 65px;
+    background-image: url(../img/sound\ 1.png);
+    margin-left: 482px;
+    margin-top: 21px;
+}
+.playlistartic{
+    padding-top: 36px;
+    margin: 0 auto;
+    width: 1252px;
+    height: 566px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.lastorder{
+  
+    display: flex;
+}
+.lastsecondorder{
+    padding-left: 211px;
+    margin-top: -185px;
+}
+.playlistartic .pirveli{
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+}
+.forartic{
+    margin-top: 50px;
+    padding-left: 102px;
+    display: flex;
+    margin-right: 126px;
+}
+.soundpage3{
+    width: 265px;
+    height: 65px;
+    background-image: url(../img/sound\ 1.png);
+    margin-left: 592px;
+    margin-top: -200px;
+}
+
+header li::before {
+    content: "";
+    width: 2px;
+    height: 0;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;}
+
+header li::after{
+    content: "";
+    width: 2px;
+    height: 0;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.thanks{
+    font-size: 40px;
+   text-align: center;
+   margin-top: 198px;
+}
+.firstorder:hover::after{
+    background-color: #cecece50;
+}
